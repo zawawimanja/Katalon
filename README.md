@@ -5,4 +5,4 @@ Katalon docs - https://docs.katalon.com/katalon-studio/docs/record-web-utility.h
 
 
 
-Web , mobile , api 
+Web , mobile , api , desktop
