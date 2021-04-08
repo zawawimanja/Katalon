@@ -1,3 +1,4 @@
 
 
 combination of the same test suite with different testing environments.
+the test suite is executed in Firefox and Chrome.
