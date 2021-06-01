@@ -1,3 +1,17 @@
 
 action for the web ui 
 
+*/
+
+/*
+'Open browser and navigate to demo AUT site'
+WebUI.openBrowser('http://demoaut.katalon.com/')
+
+'Click on \'Make Appointment\' button'
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+'Check on \'Medicaid\' checkbox'
+WebUI.check(findTestObject('Page_CuraAppointment/chk_Medicaid'))
+
+WebUI.closeBrowser()
+
