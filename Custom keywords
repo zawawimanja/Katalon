@@ -1,1 +1,13 @@
+
+@Keyword
+
 Custom keywords are functions defined to be reused many times, e.g. Login, Shop, Checkout, etc.
+
+
+- create a package and will be under keywords folder
+
+@Keyword (keywordObject = "<category_name>")
+def keywordName(parameters…) {
+// enter your code here
+// you can use either Groovy or Java
+}
