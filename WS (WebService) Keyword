@@ -1,0 +1,5 @@
+'Send a SOAP request and returns its response'
+def resObj = WS.sendRequest(findTestObject('SOAP_EmployeeInfo'))
+ 
+'Verify if response object contains email@katalon.com value'
+WS.containsString(resObj, 'email@katalon.com', false)
