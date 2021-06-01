@@ -1,0 +1,6 @@
+
+
+for windows desktop application
+
+"Set 'Welcome to Katalon Studio' on the edit panel"
+Windows.setText(findWindowsObject("Object Repository/Edit"), 'Welcome to Katalon Studio')
