@@ -1,0 +1,9 @@
+
+
+
+
+'Start application on current selected android\'s device'
+Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
+
+'Close application on current selected android\'s device'
+Mobile.closeApplication()
