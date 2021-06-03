@@ -6,6 +6,10 @@ Custom keywords are functions defined to be reused many times, e.g. Login, Shop,
 
 - create a package and will be under keywords folder
 
+-call the function
+
+CustomKeywords.'sample.Shop.addToCartWithGlobalVariable'()
+
 @Keyword (keywordObject = "<category_name>")
 def keywordName(parameters…) {
 // enter your code here
