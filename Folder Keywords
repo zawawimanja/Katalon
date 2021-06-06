@@ -1,3 +1,7 @@
 
 
 for groovy script and will be called in testcase.
+
+
+//need to add customkeywords.
+CustomKeywords.'sample.Login.logoutFromApplication'()
