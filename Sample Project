@@ -7,7 +7,19 @@ Folder
   - Object Repository
   - Test Case
     - Custom Keyword samples
-    - Data driven samples
+    - Data driven samples = will be using data files to read database
+    
+    ///////////////////////
+    
+    Healthcare Web UI Project
+////////////////////////
+Folder
+  - Keywords
+  - Test Suites
+  - Object Repository
+  - Test Case
+    - Common Test Cases
+    - Main Test Cases
     
     ///////////////////////
     
