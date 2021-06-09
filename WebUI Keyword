@@ -1,4 +1,9 @@
 
+can drag drop to the script.
+//webui.click()
+after drag drop
+//webui.click(findtestobject())
+
 action for the web ui 
 
 */
