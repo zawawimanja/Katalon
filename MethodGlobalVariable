@@ -1,0 +1,21 @@
+add the method in methodglobal
+
+//global method
+@Keyword
+	def static void addToCartWithGlobalVariable(){
+		addToCart(GlobalVariable.productName,GlobalVariable.urlProduct)
+	}
+
+
+//local method
+	@Keyword
+	def static void addToCart(String productName,String urlProduct){
+		navigatetoDetailPage(productName, urlProduct)
+		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/btnAddToCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Pages/Shop page/btnAddToCart'))
+
+		WebUI.waitForElementPresent(findTestObject('Pages/Shop page/lnkViewCart'), GlobalVariable.waitPresentTimeout)
+		WebUI.click(findTestObject('Pages/Shop page/lnkViewCart'))
+
+		WebUI.verifyElementPresent(findTestObject('Pages/Shop page/btnProceed'), GlobalVariable.waitPresentTimeout)
+	}
