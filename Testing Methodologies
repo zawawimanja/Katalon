@@ -1,4 +1,4 @@
 Behavior-driven development - BDD -  agile software development process that encourages collaboration among developers, quality assurance testers, and customer representatives in a software project
 Data-driven testing - DDT  - creation of test scripts where test data and/or output values are read from data files
-Keyword-driven testing - KDT
+Keyword-driven testing - KDT - create and using the keyword
 Page Object Model - POM
