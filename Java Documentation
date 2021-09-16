@@ -1,0 +1,6 @@
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+1. import on the top of the page
+2. call WebUI with the method 
+
+WebUI.openBrowser()
