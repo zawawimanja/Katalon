@@ -8,10 +8,20 @@ Custom keywords are functions defined to be reused many times, e.g. Login, Shop,
 
 -call the function
 
-CustomKeywords.'sample.Shop.addToCartWithGlobalVariable'()
+//this in the script test case
+//file name login 
+CustomKeywords.'sample.Login.loginIntoApplicationWithGlobalVariable'()
 
-@Keyword (keywordObject = "<category_name>")
-def keywordName(parameters…) {
-// enter your code here
-// you can use either Groovy or Java
-}
+//in keywords folder that name login files
+	@Keyword
+	def static void loginIntoApplication(String applicationURL,String username,String password){
+
+		WebUI.openBrowser(applicationURL)
+	}
+
+
+//function this will be called in test case script
+	@Keyword
+	def static void loginIntoApplicationWithGlobalVariable(){
+		loginIntoApplication(GlobalVariable.urlLogin, GlobalVariable.username, GlobalVariable.password)
+	}
